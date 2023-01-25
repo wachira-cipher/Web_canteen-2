@@ -1,63 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-      <style>
-     body{
-        background-color:green;
-      }
-      </style>
-        <title>Jonathan's canteen</title>
-    </head>
-    
-        <meta charset="utf-8">
-        <meta name=" viewport" content="width=device-width" initial-scale=1;>
-        <!--bootstrap-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.css">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-
-        <link rel="stylesheet" href="Styles/style.css">
-      </head>
-      <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark"">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">WEBcantEEN</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="file:///C:/Xammpo/htdocs/web_canteen/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="file:///C:/Xammpo/htdocs/web_canteen/Pages/Foods.html"> Foods</a>
-                  
-                </li>
-                <li class="nav-item dropdown dropdown-menu-dark">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   More
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="file:///C:/Xammpo/htdocs/web_canteen/Pages/Store.html">Store</a></li>
-                    <li><a class="dropdown-item" href="file:///C:/Xammpo/htdocs/web_canteen/Pages/Fast_snacks.html">Fast Snacks</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="file:///C:/Xammpo/htdocs/web_canteen/Pages/About_us.html">About Us</a></li>
-                  </ul>
-                </li></ul>
-                
-              
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </nav>
+<?php 
+include "Src/Templates/header.php";
+?>
 
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card h-100">
-        <img src="file:///C:/Xammpo/htdocs/web_canteen/Assets/Images/223.mahamri.jpg" class="card-img-top" alt="...">
+        <img src="http://localhost/web_canteen/Assets/Images/223.mahamri.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Aunties Mahamri Mix</h5>
           <p class="card-text">KSH 70.00</p>
@@ -69,26 +17,26 @@
     </div>
     <div class="col">
       <div class="card h-100">
-        <img src="file:///C:/Xammpo/htdocs/web_canteen/Assets/Images/222.big g.jpg" class="card-img-top" alt="...">
+        <img src="http://localhost/web_canteen/Assets/Images/222.big g.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Big G Bublegum</h5>
           <p class="card-text">Ksh 150.88</p>
         </div>
         <div class="card-footer">
-          <img  style="height: 20px; width: 20px;" src="file:///C:/Xammpo/htdocs/web_canteen/Assets/Images/2.cart.jpg " alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html"><button type="button"class= " btn btn-success"> Add to cart</button></a>
+          <img  style="height: 20px; width: 20px;" src="http://localhost/web_canteen/Assets/Images/2.cart.jpg " alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html"><button type="button"class= " btn btn-success"> Add to cart</button></a>
         
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card h-100">
-        <img src="file:///C:/Xammpo/htdocs/web_canteen/Assets/Images/202.jpeg" class="card-img-top" alt="...">
+        <img src="http://localhost/web_canteen/Assets/Images/202.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cudburry chocobakes</h5>
           <p class="card-text"> Ksh 100.00</p>
         </div>
         <div class="card-footer">
-          <img  style="height: 20px; width: 20px;" src="file:///C:/Xammpo/htdocs/web_canteen/Assets/Images/2.cart.jpg " alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html"><button type="button"class= " btn btn-success"> Add to cart</button></a>
+          <img  style="height: 20px; width: 20px;" src="http://localhost/web_canteen/Assets/Images/2.cart.jpg " alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html"><button type="button"class= " btn btn-success"> Add to cart</button></a>
         
         </div>
       </div>
@@ -97,13 +45,13 @@
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card h-100">
-        <img src="file:///C:/Xammpo/htdocs/web_canteen/Assets/Images/200.jpeg" class="card-img-top" alt="...">
+        <img src="http://localhost/web_canteen/Assets/Images/200.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Manji Family biscuits</h5>
           <p class="card-text">Kshs 90.00</p>
         </div>
         <div class="card-footer">
-          <img  style="height: 20px; width: 20px;" src="file:///C:/Xammpo/htdocs/web_canteen/Assets/Images/2.cart.jpg " alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html#"><button type="button"class= " btn btn-success"> Add to cart</button></a>
+          <img  style="height: 20px; width: 20px;" src="http://localhost/web_canteen/Assets/Images/2.cart.jpg " alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html#"><button type="button"class= " btn btn-success"> Add to cart</button></a>
         
         </div>
       </div>
@@ -176,6 +124,9 @@
       </div>
     </div>
   </div>
+  <?php 
+  include "Src/Templates/Footer.php";
+?>
 </body>
 
 </html>
