@@ -1,5 +1,5 @@
 <?php 
-include "Src/Templates/header.php";
+include __DIR__ . "/../Templates/header.php";
 ?>
        
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -234,5 +234,5 @@ include "Src/Templates/header.php";
   A simple danger alert—check it out!
 </div>
 <?php 
-include "Src/Templates/Footer.php";
+include __DIR__ . "/../Templates/Footer.php";
 ?>

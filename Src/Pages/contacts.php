@@ -1,6 +1,6 @@
 
                     <?php  
-                    include "Src/Templates/header.php";
+                    include __DIR__ . "/../Templates/header.php";
 ?>
                     <section class="form">
                     <form>
@@ -32,18 +32,18 @@
           </section>
           <nav aria-label="Page navigation example">
             <ul class="pagination">
-              <li class="page-item"><a class="page-link" href="Pages/Shop.html">Previous</a></li>
-              <li class="page-item"><a class="page-link" href="Pages/index.html">1</a></li>
-              <li class="page-item"><a class="page-link" href="Pages/Fast_snacks.html">2</a></li>
-              <li class="page-item"><a class="page-link" href="Pages/Drinks.html"></a></li>
-              <li class="page-item"><a class="page-link" href="Pages/Foods.html">Next</a></li>
+              <li class="page-item"><a class="page-link" href="http://localhost/web_canteen/Src/Pages/Shop.php">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="http://localhost/web_canteen/Src/Pages/index.php">1</a></li>
+              <li class="page-item"><a class="page-link" href="http://localhost/web_canteen/Src/Pages/Fast_snacks.php">2</a></li>
+              <li class="page-item"><a class="page-link" href="http://localhost/web_canteen/Src/Pages/Drinks.php"></a></li>
+              <li class="page-item"><a class="page-link" href="http://localhost/web_canteen/Src/Pages/Foods.php">Next</a></li>
             </ul>
           </nav>
           
               </div>
               
               <?php 
-              include "Src/Templates/Footer.php";
+              include __DIR__ . "/../Templates/Footer.php";
 ?>
 
                 

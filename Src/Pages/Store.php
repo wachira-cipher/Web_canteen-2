@@ -1,5 +1,5 @@
 <?php
-include "Src/Templates/header.php";
+include __DIR__ . "/../Templates/header.php";
 ?>
 <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -85,39 +85,39 @@ include "Src/Templates/header.php";
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
-              <img src="/web_canteen/Assets/Images/205.soda.jpg" class="card-img-top" alt="...">
+              <img src="http://localhost/web_canteen/Assets/Images/205.soda.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">COCACOLA 1.25 L</h5>
                 <p class="card-text">Ksh 90.00</p>
               </div>
               <div class="card-footer">
-                <img  style="height: 20px; width: 20px;" src="/web_canteen/Assets/Images/2.cart.jpg " alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html#"><button type="button"class= " btn btn-success"> Add to cart</button></a>
+                <img  style="height: 20px; width: 20px;" src="http://localhost/web_canteen/Assets/Images/2.cart.jpg " alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html#"><button type="button"class= " btn btn-success"> Add to cart</button></a>
             
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="/web_canteen/Assets/Images/220.groundnut.jpg" class="card-img-top" alt="...">
+              <img src="http://localhost/web_canteen/Assets/Images/220.groundnut.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">FARMUP raw peanut</h5>
                 <p class="card-text">110.66</p>
               </div>
               <div class="card-footer">
-                <img  style="height: 20px; width: 20px;" src="file:///C:/Xammpo/htdocs/web_canteen/Assets/Images/2.cart.jpg" alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html#"><button type="button"class= " btn btn-success"> Add to cart</button></a>
+                <img  style="height: 20px; width: 20px;" src="http://localhost/web_canteen/Assets/Images/2.cart.jpg" alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html#"><button type="button"class= " btn btn-success"> Add to cart</button></a>
             
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="/web_canteen/Assets/Images/219.blueband.jpg" class="card-img-top" alt="...">
+              <img src="http://localhost/web_canteen/Assets/Images/219.blueband.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">BlueBand</h5>
                 <p class="card-text">Ksh 115.00</p>
               </div>
               <div class="card-footer">
-                <img  style="height: 20px; width: 20px;" src="file:///C:/Xammpo/htdocs/web_canteen/Assets/Images/2.cart.jpg " alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html#"><button type="button"class= " btn btn-success"> Add to cart</button></a>
+                <img  style="height: 20px; width: 20px;" src="http://localhost/web_canteen/Assets/Images/2.cart.jpg " alt=""><a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/contacts.html#"><button type="button"class= " btn btn-success"> Add to cart</button></a>
              
               </div>
             </div>
@@ -126,15 +126,15 @@ include "Src/Templates/header.php";
         <nav aria-label="Page navigation example">
           <ul class="pagination">
             <li class="page-item">
-              <a class="page-link" href="/web_canteen/Pages/Previous.html" aria-label="Previous">
+              <a class="page-link" href="http://localhost/web_canteen/Src/Pages/Previous.html" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
               </a>
             </li>
-            <li class="page-item"><a class="page-link" href="/web_canteen/Pages/1.html">1</a></li>
-            <li class="page-item"><a class="page-link" href="/web_canteen/Pages/2.html">2</a></li>
-            <li class="page-item"><a class="page-link" href="http://web_canteen/Pages/3.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="http://localhost/web_canteen/Src/Pages/1.php">1</a></li>
+            <li class="page-item"><a class="page-link" href="http://localhost/web_canteen/Src/Pages/2.php">2</a></li>
+            <li class="page-item"><a class="page-link" href="http:/localhost/web_canteen/Src/Pages/3.php">3</a></li>
             <li class="page-item">
-              <a class="page-link" href="file:///C:/Xammpo/htdocs/web_canteen/Pages/next.html" aria-label="Next">
+              <a class="page-link" href="http://localhost/web_canteen/Src/Pages/next.html" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
               </a>
             </li>
@@ -143,7 +143,7 @@ include "Src/Templates/header.php";
 
         <br>
         <?php 
-         include "Src/Templates/Footer.php";
+         include __DIR__ . "/../Templates/Footer.php";
 ?>
       
         

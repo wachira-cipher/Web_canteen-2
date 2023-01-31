@@ -1,4 +1,5 @@
-<?php "Src/Templates/header.php";
+<?php
+include __DIR__ . "/../Templates/header.php";
 ?>
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -44,5 +45,5 @@
   </div>
 </div>
 <?php  
-include "Src/Templates/Footer.php";
+include __DIR__ . "/../Templates/Footer.php";
 ?>

@@ -1,9 +1,11 @@
 <?php
-include "Src/Templates/header.php";
+include __DIR__ ."/../Templates/header.php";
 ?>
 
   <br>
-  <button class="btn btn-info" class="d-flex" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">New</button>
+  <button class="btn btn-info" class="d-flex" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+    
+  New</button>
 
 
 
@@ -79,7 +81,7 @@ include "Src/Templates/header.php";
     </ul>
   </nav>
   <?php  
-  include "Src/Templates/Footer.php";
+  include __DIR__ . "/../Templates/Footer.php";
 
   ?>
 

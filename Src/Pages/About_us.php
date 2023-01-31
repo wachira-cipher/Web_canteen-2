@@ -1,9 +1,9 @@
 <?php 
-include "Src/Templates/header.php";
+include __DIR__ . "/../Templates/header.php";
 ?>
           <div class="card mb-3"style="max-width: 540px;" >
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 py-9">
                 <img src="http://localhost/web_canteen/Assets/Images/213.taco.webp" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
@@ -15,20 +15,24 @@ include "Src/Templates/header.php";
               </div>
             </div>
           </div>
+          <br><br><br><br>
+          <br><br><br><br>
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 py-9">
                 <img src="http://localhost/web_canteen/Assets/Images/13.popi.jpg" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
                   <h5  style="color: brown;" class="card-title">Organic Snacks</h5>
-                  <p class="card-text">Are you going for a cinema and you are wondering what to carry as your snack.Leave your watermelons be and go for <a href="file:///C:/Xammpo/htdocs/web_canteen/Pages/Fast_snacks.html">fast snacks</a>.</p>
+                  <p class="card-text">Are you going for a cinema and you are wondering what to carry as your snack.Leave your watermelons be and go for <a href="http://localhost/web_canteen/Src/Pages/Fast_snacks.php">fast snacks</a>.</p>
                   
                 </div>
               </div>
             </div>
           </div>
+          <br><br><br><br>
+          <br><br><br><br>
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
@@ -43,9 +47,12 @@ include "Src/Templates/header.php";
               </div>
             </div>
           </div>
+          <br> <br>
+          <br> <br>
+          <br> <br>
           <section class=" bout">
             <div class="row">
-                <div class="col-lg">
+                <div class="col-lg-5 py">
                   <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">

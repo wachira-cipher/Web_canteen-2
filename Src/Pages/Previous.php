@@ -1,4 +1,4 @@
-<?php "Src/Templates/header.php";
+<?php __DIR__ . "/../Templates/header.php";
 ?>
 
         <br>
@@ -318,5 +318,5 @@
 
 
           <?php 
-          include "Src/Templates/Footer.php";
+          include __DIR__ . "/../Templates/Footer.php";
 ?>
